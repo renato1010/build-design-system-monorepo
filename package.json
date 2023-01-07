@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore --quiet --no-error-on-unmatched-pattern packages/**/*{js,jsx,ts,tsx} && echo 'linted ok'"
+    "lint": "eslint --ignore-path .gitignore --quiet --no-error-on-unmatched-pattern packages/**/*{js,jsx,ts,tsx} && echo 'linting went ok'"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.48.0",

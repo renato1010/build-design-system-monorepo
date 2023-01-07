@@ -1,0 +1,12 @@
+{
+  "name": "@renato1010/storybook",
+  "packageManager": "yarn@3.3.1",
+  "private": true,
+  "dependencies": {
+    "@renato1010/foundation": "workspace:^",
+    "@renato1010/react": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

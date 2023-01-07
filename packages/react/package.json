@@ -1,0 +1,13 @@
+{
+  "name": "@renato1010/react",
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@renato1010/foundation": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

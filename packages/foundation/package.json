@@ -1,8 +1,12 @@
 {
   "name": "@renato1010/foundation",
   "packageManager": "yarn@3.3.1",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
-    "build-tokens": "style-dictionary build --config sd.config.js"
+    "build-tokens": "style-dictionary build --config sd.config.js",
+    "build": "yarn build-tokens && tsc",
+    "build-tsc": "tsc --skipLibCheck"
   },
   "devDependencies": {
     "style-dictionary": "^3.7.2",

@@ -2,7 +2,7 @@ import { IconButton } from '@renato1010/react/src/IconButton';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 
 export default {
-  title: 'Newline/IconButton',
+  title: 'renato1010/IconButton',
   component: IconButton,
 } as ComponentMeta<typeof IconButton>;
 
